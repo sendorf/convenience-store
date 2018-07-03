@@ -3,11 +3,11 @@ Convenience Store
 
 We sell only three products:
 
-Code         | Name                |  Price
--------------------------------------------------
-VOUCHER      | Voucher      |   5.00€
-TSHIRT       | T-Shirt      |  20.00€
-MUG          | Coffee Mug   |   7.50€
+| Code         | Name         |  Price
+|--------------|--------------|------------------
+| VOUCHER      | Voucher      |   5.00€
+| TSHIRT       | T-Shirt      |  20.00€
+| MUG          | Coffee Mug   |   7.50€
  
  * The marketing department believes in 2-for-1 promotions (buy two of the same product, get one free), and would like for there to be a 2-for-1 special on `VOUCHER` items.
 
@@ -29,7 +29,7 @@ Implement a checkout system that fulfills these requirements.
  
 Test data
 ---------
- 
+``` 
 Items: VOUCHER, TSHIRT, MUG
 Total: 32.50€
 
@@ -41,3 +41,4 @@ Total: 81.00€
 
 Items: VOUCHER, TSHIRT, VOUCHER, VOUCHER, MUG, TSHIRT, TSHIRT
 Total: 74.50€
+```
